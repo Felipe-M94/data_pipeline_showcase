@@ -18,6 +18,19 @@ Este repositório demonstra a implementação de um pipeline de dados completo q
 ```
 PostgreSQL -> Airflow -> Snowflake (STAGE) -> DBT -> Snowflake (DW)
 ```
+![Arquitetura](https://github.com/user-attachments/assets/1de26cf8-8681-4397-bf8e-94457769a11c)
+
+
+### DAG no Apache Airflow
+Abaixo está uma representação visual da DAG executada no Apache Airflow:
+
+![Airflow](https://github.com/user-attachments/assets/aa010be5-5c73-4f81-a4a2-06ed86e177c5)
+
+### Lineage do DBT
+A figura abaixo demonstra a estrutura lineage configurada no DBT:
+
+![Lineage do DBT](https://github.com/user-attachments/assets/05175138-24ff-49cd-93ac-37e41fd88065)
+
 
 ## Pré-requisitos
 
@@ -27,6 +40,8 @@ PostgreSQL -> Airflow -> Snowflake (STAGE) -> DBT -> Snowflake (DW)
 
 ### Tecnologias Utilizadas
 - **PostgreSQL**
+- **Amazon EC2**
+- **Docker**
 - **Apache Airflow**
 - **Snowflake**
 - **DBT (Data Build Tool)**
